@@ -75,10 +75,12 @@ import {
   Loading,
   MessageBox,
   Message,
+  Image,
   Notification
 } from 'element-ui'
 
 Vue.use(Pagination)
+Vue.use(Image)
 Vue.use(Dialog)
 Vue.use(Autocomplete)
 Vue.use(Dropdown)

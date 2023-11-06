@@ -115,7 +115,7 @@ export default {
   methods: {
     getMenus() {
       this.$http({
-        url: this.$http.adornUrl("/gulimalProduct/category/list/tree"),
+        url: this.$http.adornUrl("/product/category/list/tree"),
         method: "get",
       }).then(({ data }) => {
         console.log("成功获取到菜单数据", data.data);
